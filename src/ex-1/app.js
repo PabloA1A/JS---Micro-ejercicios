@@ -10,9 +10,7 @@ const divApp = document.querySelector('#app')
 
 function renderTitle(title) {
     divApp.innerHTML = /* html */
-       <h1>${title}</h1>
+        `<h1>${title}</h1>`
 }
 
 renderTitle(hello)
-
-console.log("conected");
